@@ -71,14 +71,14 @@
 
       str += "<tr><td></td>"
       for (let j = 0; j < Question[i].Questions.length; j++) {
-
-        str += "<td style='width:120px;'>" + Question[i].Questions[j] + "</td>";
+        /* put style='width:125px;' here */
+        str += "<td style='width:125px;'>" + Question[i].Questions[j] + "</td>";
 
       }
       str += "<td></td></tr>"
 
 
-    
+    /*Remove this line */--> //str+="<tr><td>"+Question[i].Item1 +"</td>";    
       str += "<td>" + Question[i].LeftStatment + "</td>";
 
 
